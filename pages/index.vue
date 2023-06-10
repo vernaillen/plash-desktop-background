@@ -1,5 +1,4 @@
 <script setup>
-import { onMounted, onUnmounted, ref } from 'vue';
 import gsap from 'gsap';
 
 const main = ref(),
@@ -20,6 +19,9 @@ onMounted(() => {
       .to(boxes[2], { y: -166 })
       .reverse();
   }, main.value); // <- Scope!
+  setTimeout(() => {
+    toggleTimeline()
+  }, 5000)
 });
 
 onUnmounted(() => {
