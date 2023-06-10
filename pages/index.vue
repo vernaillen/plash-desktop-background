@@ -6,7 +6,10 @@ const main = ref(),
   ctx = ref();
 
 const toggleTimeline = () => {
-  tl.value.reversed(!tl.value.reversed());
+  setTimeout(() => {
+    tl.value.reversed(!tl.value.reversed());
+    toggleTimeline()
+  }, 10000)
 };
 
 onMounted(() => {
@@ -19,9 +22,7 @@ onMounted(() => {
       .to(boxes[2], { y: -166 })
       .reverse();
   }, main.value); // <- Scope!
-  setTimeout(() => {
-    toggleTimeline()
-  }, 5000)
+  toggleTimeline()
 });
 
 onUnmounted(() => {
@@ -31,12 +32,9 @@ onUnmounted(() => {
 
 <template>
   <section class="boxes-container" ref="main">
-    <div>
-      <button @click="toggleTimeline">Toggle Timeline</button>
-    </div>
-    <div class="box">Box 1</div>
-    <div class="box">Box 2</div>
-    <div class="box">Box 3</div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
   </section>
 </template>
 
