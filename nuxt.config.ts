@@ -13,14 +13,6 @@ export default defineNuxtConfig({
     icons: true,
     components: false,
     typography: true,
-    webFonts: {
-      provider: 'google',
-      extendTheme: true,
-      fonts: {
-        sans: ['Inter:200,300,400,500,700,800,900'],
-        mono: ['Courier', 'Fira Mono:400,700'],
-      }
-    },
     theme: {
       colors: {
         primary: {

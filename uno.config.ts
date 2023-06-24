@@ -11,7 +11,7 @@ export default defineConfig({
             extendTheme: true,
             fonts: {
                 sans: ['Inter:200,300,400,500,700,800,900'],
-                mono: ['Courier'],
+                mono: ['Roboto Mono'],
             }
         }),
     ],

@@ -40,7 +40,8 @@ useHead({
           </div>
         </div>
         <main class="min-h-100vh flex flex-col">
-          <GsapAnimation />
+          <h1 class="text-5xl mt-8 mb-10 tracking-wider font-bold text-white">Wouter <span class="text-vernaillen">Vernaillen</span></h1>
+          <div class="h-60vh"></div>
           <Time />
         </main>
 
