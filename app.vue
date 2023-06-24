@@ -1,4 +1,31 @@
-
+<script setup lang="ts">
+useHead({
+  titleTemplate: () => `Wouter Vernaillen\'s Plash Desktop Background`,
+  htmlAttrs: {
+    lang: 'en'
+  },
+  meta: [
+    { name: 'description', content: 'Vernaillen.dev Plash desktop background' },
+    { name: 'robots', content: 'noindex, nofollow'}
+  ],
+  link: [
+    {
+      rel: 'icon',
+      href: '/favicon.svg',
+      type: 'image/svg+xml'
+    },
+    {
+      href: 'https://fonts.googleapis.com',
+      rel: 'preconnect'
+    },
+    {
+      href: 'https://fonts.gstatic.com',
+      rel: 'preconnect',
+      crossorigin: ''
+    }
+  ]
+})
+</script>
 
 <template>
     <div class="bg-[#121212] text-center p-0">
@@ -13,7 +40,6 @@
           </div>
         </div>
         <main class="min-h-100vh flex flex-col">
-          <h1 class="text-5xl mt-8 mb-10 tracking-wide font-bold text-white">Wouter Vernaillen</h1>
           <GsapAnimation />
           <Time />
         </main>

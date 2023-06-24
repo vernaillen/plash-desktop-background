@@ -42,7 +42,7 @@ onUnmounted(() => {
 <style>
 .boxes-container {
     width: 100%;
-    height: 60vh;
+    height: 75vh;
     display: flex;
     justify-content: center;
     align-items: center;
