@@ -13,9 +13,11 @@
   },
   "devDependencies": {
     "@nuxt/devtools": "latest",
-    "@types/node": "^20.2.6",
-    "@unocss/nuxt": "^0.53.1",
-    "nuxt": "^3.5.3"
+    "@types/node": "^20.3.1",
+    "@unocss/nuxt": "^0.53.3",
+    "@unocss/preset-web-fonts": "^0.53.3",
+    "nuxt": "^3.6.0",
+    "nuxt-time": "^0.1.0"
   },
   "dependencies": {
     "gsap": "^3.12.1"

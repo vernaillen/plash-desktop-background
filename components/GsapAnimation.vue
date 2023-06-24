@@ -9,7 +9,7 @@ const toggleTimeline = () => {
   setTimeout(() => {
     tl.value.reversed(!tl.value.reversed())
     toggleTimeline()
-  }, 5000)
+  }, 10000)
 }
 
 onMounted(() => {
@@ -42,7 +42,7 @@ onUnmounted(() => {
 <style>
 .boxes-container {
     width: 100%;
-    height: 100vh;
+    height: 60vh;
     display: flex;
     justify-content: center;
     align-items: center;

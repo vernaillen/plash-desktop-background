@@ -1,6 +1,7 @@
 export default defineNuxtConfig({
   modules: [
     '@unocss/nuxt',
+    'nuxt-time'
   ],
 
   build: {
@@ -16,7 +17,8 @@ export default defineNuxtConfig({
       provider: 'google',
       extendTheme: true,
       fonts: {
-        sans: ['Inter:200,300,400,500,700,800,900']
+        sans: ['Inter:200,300,400,500,700,800,900'],
+        mono: ['Courier', 'Fira Mono:400,700'],
       }
     },
     theme: {

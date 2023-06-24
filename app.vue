@@ -1,3 +1,5 @@
+
+
 <template>
     <div class="bg-[#121212] text-center p-0">
       <div class="flex flex-col min-h-screen">
@@ -11,7 +13,9 @@
           </div>
         </div>
         <main class="min-h-100vh flex flex-col">
+          <h1 class="text-5xl mt-8 mb-10 tracking-wide font-bold text-white">Wouter Vernaillen</h1>
           <GsapAnimation />
+          <Time />
         </main>
 
         <div class="svg-right absolute top-0 right-0 left-1/2 lg:left-2/3 pl-8 sm:pl-14 overflow-hidden">
