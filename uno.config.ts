@@ -12,6 +12,7 @@ export default defineConfig({
             fonts: {
                 sans: ['Inter:200,300,400,500,700,800,900'],
                 mono: ['Roboto Mono'],
+                montserrat: ['Montserrat:200,300,400,500,700,800,900'],
             }
         }),
     ],
