@@ -12,14 +12,14 @@
     "vercel:deploy": "NITRO_PRESET=vercel-edge vercel deploy"
   },
   "devDependencies": {
-    "@nuxt/devtools": "latest",
-    "@types/node": "^20.3.1",
-    "@unocss/nuxt": "^0.53.3",
-    "@unocss/preset-web-fonts": "^0.53.3",
-    "nuxt": "^3.6.0",
+    "@nuxt/devtools": "^0.6.6",
+    "@types/node": "^20.3.3",
+    "@unocss/nuxt": "^0.53.4",
+    "@unocss/preset-web-fonts": "^0.53.4",
+    "nuxt": "^3.6.1",
     "nuxt-time": "^0.1.0"
   },
   "dependencies": {
-    "gsap": "^3.12.1"
+    "gsap": "^3.12.2"
   }
 }
